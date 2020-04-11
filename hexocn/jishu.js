@@ -1,5 +1,5 @@
 
-<script>
+
 fetch('https://counts.42cloud.cn/api/counts.html')
     .then(response => response.json())
     .then(data => {
@@ -11,4 +11,4 @@ fetch('https://counts.42cloud.cn/api/counts.html')
           }
     })
     .catch(err => console.error(err))
-</script>
+
